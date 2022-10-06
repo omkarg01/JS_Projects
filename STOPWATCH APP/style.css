@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+  /* Created with https://www.css-gradient.com */
+  height: 98vh;
+  background: #1bd415;
+  background: -webkit-linear-gradient(top left, #1bd415, #892270);
+  background: -moz-linear-gradient(top left, #1bd415, #892270);
+  background: linear-gradient(to bottom right, #1bd415, #892270);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.timer {
+  font-size: 6rem;
+}
+
+.container {
+  border: 5px solid #ccc;
+  /* background-color: ; */
+  text-align: center;
+  width: 70%;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.stop {
+  background-color: #f44336;
+}
+
+.reset {
+  background-color: #808080;
+}
