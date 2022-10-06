@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Count</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Word Count App</h1>
+        <textarea type="text" class="text" rows="8" cols="80"></textarea>
+
+        <div class="btn">
+            <button class="count-btn">Count Words & Characters</button>
+            <button class="clear-btn">Clear</button>
+        </div>
+
+        <div>
+            <h3>Word Count: <span class="word-count">0</span></h3>
+            <h3>Character Count: <span class="char-count">0</span></h3>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
