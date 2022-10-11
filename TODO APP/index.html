@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>TODO APP</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>TODO APP</h1>
+        <div class="input">
+            <input type="text" id="input" placeholder="Enter your task">
+            <button id="add">Add</button>
+        </div>
+        <div class="list">
+            <ul id="list">
+                <li><span class="task">Task 1</span> <span><button class="edit" id="1">Edit</button><button
+                            class="remove" id="1">Remove</button></span>
+                </li>
+                <li><span class="task">Task 2</span> <span><button class="edit" id="2">Edit</button><button
+                            class="remove" id="2">Remove</button></span>
+                </li>
+                <li><span class="task">Task 3</span> <span><button class="edit" id="3">Edit</button><button
+                            class="remove" id="3">Remove</button></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
