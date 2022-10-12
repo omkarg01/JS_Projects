@@ -15,8 +15,10 @@ submit.addEventListener('click', function (evt) {
 
 function checkUsername() {
     const usernameValue = username.value.trim();
-    const usernameError = document.getElementById('usernameError');
-    if (usernameValue === '') {
+    const usernameError = document.getElementById('username-error');
+    console.log(usernameValue === "");  
+    if (usernameValue === "") {
+        usernameError.style.display = 'inline-block';
         usernameError.innerHTML = 'Username cannot be blank';
     }
 }
