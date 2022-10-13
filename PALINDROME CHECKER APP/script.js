@@ -7,6 +7,11 @@ button.addEventListener("click", (event) => {
     const inputText = input.value;
     const reversedText = inputText.split("").reverse().join("");
     output.style.display = "block";
+
+    if (inputText.length === 0) {
+        output.innerText = "Please enter a word or phrase";
+    }
+
     if (inputText === reversedText) {
         output.innerText = "Palindrome";
     } else {
