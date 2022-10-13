@@ -15,7 +15,10 @@ function addTransaction(event) {
     <span>${amount.value}</span>
     <button class="delete-btn">x</button>
     `;
+    list.appendChild(transaction);
+    balance.innerText = parseInt(balance.innerText) + parseInt(amount.value) + ".00";
     text.value = "";
     amount.value = "";
-    list.appendChild(transaction);
 }
+
+
