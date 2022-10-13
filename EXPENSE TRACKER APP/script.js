@@ -46,5 +46,4 @@ function updateHistory() {
         balance.innerText = 0;
         list.innerHTML = "No transactions yet";
     }
-
 }
