@@ -1,0 +1,79 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100vh;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: radial-gradient(
+      49% 81% at 45% 47%,
+      #ffe20345 0%,
+      #073aff00 100%
+    ),
+    radial-gradient(113% 91% at 17% -2%, #ff5a00ff 1%, #ff000000 99%),
+    radial-gradient(142% 91% at 83% 7%, #ffdb00ff 1%, #ff000000 99%),
+    radial-gradient(142% 91% at -6% 74%, #ff0049ff 1%, #ff000000 99%),
+    radial-gradient(142% 91% at 111% 84%, #ff7000ff 0%, #ff0000ff 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  margin-inline: 10px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  margin-inline: 10px;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+#start {
+  background-color: lightgreen;
+}
+
+#reset {
+  background-color: grey;
+}
